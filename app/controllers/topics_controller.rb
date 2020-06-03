@@ -11,7 +11,7 @@ class TopicsController < ApplicationController
   # Topic -> @sub.topics
 
   def index
-   @topics = @sub.topics
+    @topics = @sub.topics
   end
 
   def show
